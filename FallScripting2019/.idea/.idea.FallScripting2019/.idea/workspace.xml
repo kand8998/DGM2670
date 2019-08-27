@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -41,6 +41,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1566927087861" expanded="false" signature="6:78" ph="..." />
+                <marker date="1566927087861" expanded="true" signature="122:418" ph="{...}" />
+                <marker date="1566927087861" expanded="true" signature="234:278" ph="{...}" />
+                <marker date="1566927087861" expanded="true" signature="357:414" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -49,16 +64,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Loops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="965" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -126,12 +143,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566925349405</updated>
-      <workItem from="1566925355147" duration="1436000" />
+      <workItem from="1566925355147" duration="1731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1436000" />
+    <option name="totallyTimeSpent" value="1731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -143,7 +160,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="772" y="0" width="768" height="832" extended-state="1" />
+    <frame x="772" y="0" width="768" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -214,6 +232,19 @@
             <marker date="1566926640868" expanded="true" signature="132:482" ph="{...}" />
             <marker date="1566926640868" expanded="true" signature="293:393" ph="{...}" />
             <marker date="1566926640868" expanded="true" signature="420:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1566927087861" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566927087861" expanded="true" signature="122:418" ph="{...}" />
+            <marker date="1566927087861" expanded="true" signature="234:278" ph="{...}" />
+            <marker date="1566927087861" expanded="true" signature="357:414" ph="{...}" />
           </folding>
         </state>
       </provider>
