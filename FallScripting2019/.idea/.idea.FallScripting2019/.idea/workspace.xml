@@ -10,18 +10,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="435">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
-                <marker date="1566926069666" expanded="true" signature="6:104" ph="..." />
-                <marker date="1566926069666" expanded="true" signature="141:763" ph="{...}" />
-                <marker date="1566926069666" expanded="true" signature="319:716" ph="{...}" />
-                <marker date="1566926069666" expanded="true" signature="361:452" ph="{...}" />
-                <marker date="1566926069666" expanded="true" signature="636:710" ph="{...}" />
-                <marker date="1566926069666" expanded="true" signature="740:761" ph="{...}" />
+                <marker date="1566926120917" expanded="false" signature="6:44" ph="..." />
+                <marker date="1566926120917" expanded="true" signature="81:663" ph="{...}" />
+                <marker date="1566926120917" expanded="true" signature="259:656" ph="{...}" />
+                <marker date="1566926120917" expanded="true" signature="301:392" ph="{...}" />
+                <marker date="1566926120917" expanded="true" signature="576:650" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <marker date="1566926640868" expanded="false" signature="6:78" ph="..." />
+                <marker date="1566926640868" expanded="true" signature="132:482" ph="{...}" />
+                <marker date="1566926640868" expanded="true" signature="293:393" ph="{...}" />
+                <marker date="1566926640868" expanded="true" signature="420:480" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,12 +47,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Loops.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs" />
       </list>
     </option>
   </component>
@@ -110,12 +126,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566925349405</updated>
-      <workItem from="1566925355147" duration="714000" />
+      <workItem from="1566925355147" duration="1436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="714000" />
+    <option name="totallyTimeSpent" value="1436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -127,14 +143,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="772" y="0" width="768" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="772" y="0" width="768" height="832" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
@@ -160,7 +176,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -177,15 +193,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="435">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
-            <marker date="1566926069666" expanded="true" signature="6:104" ph="..." />
-            <marker date="1566926069666" expanded="true" signature="141:763" ph="{...}" />
-            <marker date="1566926069666" expanded="true" signature="319:716" ph="{...}" />
-            <marker date="1566926069666" expanded="true" signature="361:452" ph="{...}" />
-            <marker date="1566926069666" expanded="true" signature="636:710" ph="{...}" />
-            <marker date="1566926069666" expanded="true" signature="740:761" ph="{...}" />
+            <marker date="1566926120917" expanded="false" signature="6:44" ph="..." />
+            <marker date="1566926120917" expanded="true" signature="81:663" ph="{...}" />
+            <marker date="1566926120917" expanded="true" signature="259:656" ph="{...}" />
+            <marker date="1566926120917" expanded="true" signature="301:392" ph="{...}" />
+            <marker date="1566926120917" expanded="true" signature="576:650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <marker date="1566926640868" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566926640868" expanded="true" signature="132:482" ph="{...}" />
+            <marker date="1566926640868" expanded="true" signature="293:393" ph="{...}" />
+            <marker date="1566926640868" expanded="true" signature="420:480" ph="{...}" />
           </folding>
         </state>
       </provider>
