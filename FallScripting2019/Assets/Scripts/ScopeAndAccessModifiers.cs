@@ -20,5 +20,6 @@ public class ScopeAndAccessModifiers : MonoBehaviour
     private void Update()
     {
         Debug.Log("Alpha is set to: " + alpha);
+        beta += gamma;
     }
 }
