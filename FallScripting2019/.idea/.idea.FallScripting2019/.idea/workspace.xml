@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,7 +25,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Loops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpdateAndFixedUpdate.cs" />
@@ -32,6 +32,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnableComponents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraLookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +90,7 @@
       <workItem from="1567099513796" duration="1429000" />
       <workItem from="1567179418279" duration="831000" />
       <workItem from="1567614088816" duration="260000" />
+      <workItem from="1567624431404" duration="4068000" />
     </task>
     <servers />
   </component>
