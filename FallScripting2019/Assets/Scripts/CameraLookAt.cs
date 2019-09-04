@@ -1,0 +1,13 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraLookAt : MonoBehaviour
+{
+    // Unity Tutorial Variant
+    public Transform target;
+    private void Update()
+    {
+        transform.LookAt(target);
+    }
+}
