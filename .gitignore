@@ -9,7 +9,8 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-[Pp]ackages/
+Packages/
+.idea/
 Assets/Plugins/
 
 
@@ -49,7 +50,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-*.dll
+
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -65,4 +66,5 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+*.dll
 
