@@ -15,6 +15,8 @@
           <e p="ImageController.cs" t="Include" />
           <e p="Loops.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
+          <e p="MoveBase.cs" t="Include" />
+          <e p="MoveCharacter.cs" t="Include" />
           <e p="ScopeAndAccessModifiers.cs" t="Include" />
           <e p="TransformFunctions.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />

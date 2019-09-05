@@ -10,13 +10,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AxisExampleHorizontalVertical.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <marker date="1567711362225" expanded="true" signature="78:415" ph="{...}" />
-                <marker date="1567711362225" expanded="true" signature="185:413" ph="{...}" />
+                <marker date="1567711925501" expanded="true" signature="78:407" ph="{...}" />
+                <marker date="1567711925501" expanded="true" signature="185:405" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <marker date="1567712712524" expanded="true" signature="69:265" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -29,8 +42,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScopeAndAccessModifiers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AxisExampleHorizontalVertical.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AwakeAndStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,10 +65,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AxisExampleHorizontalVertical.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveBase.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="980" />
     <option name="width" value="945" />
     <option name="height" value="1040" />
@@ -118,12 +135,12 @@
       <workItem from="1567179418279" duration="831000" />
       <workItem from="1567614088816" duration="260000" />
       <workItem from="1567624431404" duration="4068000" />
-      <workItem from="1567711141274" duration="565000" />
+      <workItem from="1567711141274" duration="1568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565000" />
+    <option name="totallyTimeSpent" value="1568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -135,7 +152,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="0" width="756" height="832" extended-state="0" />
+    <frame x="784" y="0" width="756" height="832" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -216,12 +233,41 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <marker date="1567712474849" expanded="true" signature="6:44" ph="..." />
+            <marker date="1567712474849" expanded="true" signature="88:553" ph="{...}" />
+            <marker date="1567712474849" expanded="true" signature="246:313" ph="{...}" />
+            <marker date="1567712474849" expanded="true" signature="342:551" ph="{...}" />
+            <marker date="1567712474849" expanded="true" signature="383:436" ph="{...}" />
+            <marker date="1567712474849" expanded="true" signature="449:503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AxisExampleHorizontalVertical.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1567711362225" expanded="true" signature="78:415" ph="{...}" />
-            <marker date="1567711362225" expanded="true" signature="185:413" ph="{...}" />
+            <marker date="1567711925501" expanded="true" signature="78:407" ph="{...}" />
+            <marker date="1567711925501" expanded="true" signature="185:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <marker date="1567712712524" expanded="true" signature="69:265" ph="{...}" />
           </folding>
         </state>
       </provider>
