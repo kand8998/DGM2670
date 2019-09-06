@@ -14,6 +14,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/CameraLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +40,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/usingOtherComponents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +99,7 @@
       <workItem from="1567614088816" duration="260000" />
       <workItem from="1567624431404" duration="4068000" />
       <workItem from="1567711141274" duration="1568000" />
-      <workItem from="1567780002044" duration="902000" />
+      <workItem from="1567780002044" duration="1484000" />
     </task>
     <servers />
   </component>

@@ -23,6 +23,7 @@
             <e p="ScopeAndAccessModifiers.cs" t="Include" />
             <e p="TransformFunctions.cs" t="Include" />
             <e p="UpdateAndFixedUpdate.cs" t="Include" />
+            <e p="UsingDeltaTime.cs" t="Include" />
             <e p="usingOtherComponents.cs" t="Include" />
           </e>
         </e>

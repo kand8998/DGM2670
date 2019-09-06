@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1683,6 +1683,7 @@ GameObject:
   - component: {fileID: 1505624198}
   - component: {fileID: 1505624197}
   - component: {fileID: 1505624196}
+  - component: {fileID: 1505624199}
   m_Layer: 0
   m_Name: C# Spot Light
   m_TagString: Untagged
@@ -1754,6 +1755,21 @@ Transform:
   m_Father: {fileID: 485011620}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 47.63, y: 9.96, z: 12.827001}
+--- !u!114 &1505624199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505624195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff20774acbe9f7647865de99987959ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  countdown: 3
+  SpotLight: {fileID: 1505624197}
 --- !u!1 &1533255438
 GameObject:
   m_ObjectHideFlags: 0
