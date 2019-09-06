@@ -12,6 +12,7 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoveBase.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
+          <e p="RatchAndClankMonoEvents.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="Tutorial Variants" t="Include">
             <e p="AwakeAndStart.cs" t="Include" />
