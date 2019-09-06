@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 
-public class AxisExampleHorizontalVertical : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity Tutorial Variant
-    public float hRange;
-    public float vRange;
-    public void Update()
+    public class AxisExampleHorizontalVertical : MonoBehaviour
     {
-        var h = Input.GetAxis("Horizontal");
-        var v = Input.GetAxis("Vertical");
-        var xPos = h * hRange;
-        var vPos = v * vRange;
+        // Unity Tutorial Variant
+        public float hRange;
+        public float vRange;
+        public void Update()
+        {
+            var h = Input.GetAxis("Horizontal");
+            var v = Input.GetAxis("Vertical");
+            var xPos = h * hRange;
+            var vPos = v * vRange;
 
-        transform.position = new Vector3(xPos, 0, vPos);
+            transform.position = new Vector3(xPos, 0, vPos);
+        }
     }
 }

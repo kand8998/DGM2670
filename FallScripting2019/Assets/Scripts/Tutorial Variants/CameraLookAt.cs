@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CameraLookAt : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity Tutorial Variant
-    public Transform target;
-    private void Update()
+    public class CameraLookAt : MonoBehaviour
     {
-        transform.LookAt(target);
+        // Unity Tutorial Variant
+        public Transform target;
+        private void Update()
+        {
+            transform.LookAt(target);
+        }
     }
 }

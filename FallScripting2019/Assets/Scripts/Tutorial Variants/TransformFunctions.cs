@@ -1,24 +1,24 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TransformFunctions : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity tutorial variant
-    public float moveSpeed = 10f;
-    private void Start()
+    public class TransformFunctions : MonoBehaviour
     {
-        transform.Translate(new Vector3(0,0,1));
-        transform.Rotate(new Vector3(1,0,0));
-    }
-
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.RightArrow))
+        // Unity tutorial variant
+        public float moveSpeed = 10f;
+        private void Start()
         {
-            transform.Translate(moveSpeed * Time.deltaTime * Vector3.forward);
+            transform.Translate(new Vector3(0,0,1));
+            transform.Rotate(new Vector3(1,0,0));
         }
+
+        private void Update()
+        {
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Translate(moveSpeed * Time.deltaTime * Vector3.forward);
+            }
         
+        }
     }
 }

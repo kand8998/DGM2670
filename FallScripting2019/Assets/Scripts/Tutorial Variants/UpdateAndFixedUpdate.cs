@@ -1,18 +1,21 @@
 ﻿using UnityEngine;
 
-public class UpdateAndFixedUpdate : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity Tutorial Variant
-    private float fixedUpdateTimer;
-    private float UpdateTimer;
-
-    private void fixedUpdate()
+    public class UpdateAndFixedUpdate : MonoBehaviour
     {
-        Debug.Log("FixedUpdate time:" + Time.deltaTime);
-    }
+        // Unity Tutorial Variant
+        private float fixedUpdateTimer;
+        private float UpdateTimer;
 
-    private void Update()
-    {
-        Debug.Log("Update time:" + Time.deltaTime);
+        private void fixedUpdate()
+        {
+            Debug.Log("FixedUpdate time:" + Time.deltaTime);
+        }
+
+        private void Update()
+        {
+            Debug.Log("Update time:" + Time.deltaTime);
+        }
     }
 }

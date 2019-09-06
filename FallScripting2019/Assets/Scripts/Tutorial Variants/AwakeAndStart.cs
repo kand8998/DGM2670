@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 
-public class AwakeAndStart : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity Tutorial Variant
-
-    private void Awake()
-        //References between scripts when game starts
+    public class AwakeAndStart : MonoBehaviour
     {
-        Debug.Log("I'm Awake");
+        // Unity Tutorial Variant
+
+        private void Awake()
+            //References between scripts when game starts
+        {
+            Debug.Log("I'm Awake");
+        }
+
+        private void Start()
+            //Begins when made active, only happens once
+        {
+            Debug.Log("Time to Start the Day!");
+        }
+
+
     }
-
-    private void Start()
-        //Begins when made active, only happens once
-    {
-        Debug.Log("Time to Start the Day!");
-    }
-
-
 }

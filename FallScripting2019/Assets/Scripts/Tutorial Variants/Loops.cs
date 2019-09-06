@@ -1,34 +1,36 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-
-public class Loops : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity Tutorial Variant and Testing
-
-    private int eggsInTheBasket = 12;
-    public UnityEvent ContinueEvent;
-    private int numEnemies = 3;
-
-    private void Start()
+    public class Loops : MonoBehaviour
     {
-        while (eggsInTheBasket > 0)
+        // Unity Tutorial Variant and Testing
+
+        private int eggsInTheBasket = 12;
+        public UnityEvent ContinueEvent;
+        private int numEnemies = 3;
+
+        private void Start()
         {
-            Debug.Log("We have eggs!");
-            eggsInTheBasket--;
+            while (eggsInTheBasket > 0)
+            {
+                Debug.Log("We have eggs!");
+                eggsInTheBasket--;
+            }
+
+            bool shouldContinue = false;
+
+            do
+            {
+                ContinueEvent.Invoke();
+            } while (shouldContinue == true);
+
+            for (int i = 0; i < numEnemies; i++)
+            {
+                Debug.Log("Creating enemy number: " + i);
+            }
         }
-
-        bool shouldContinue = false;
-
-        do
-        {
-            ContinueEvent.Invoke();
-        } while (shouldContinue == true);
-
-        for (int i = 0; i < numEnemies; i++)
-        {
-            Debug.Log("Creating enemy number: " + i);
-        }
-    }
     
+    }
 }

@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 
-public class EnableComponents : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Unity turotial variant
-    private Light spotLight;
-    private void Start()
+    public class EnableComponents : MonoBehaviour
     {
-        spotLight = GetComponent<Light>();
-    }
-    
-    private void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.Space))
+        // Unity turotial variant
+        private Light spotLight;
+        private void Start()
         {
-            spotLight.enabled = false;
+            spotLight = GetComponent<Light>();
+        }
+    
+        private void Update()
+        {
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                spotLight.enabled = false;
+            }
         }
     }
 }
