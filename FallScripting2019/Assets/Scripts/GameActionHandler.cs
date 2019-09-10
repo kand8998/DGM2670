@@ -5,12 +5,13 @@ public class GameActionHandler : MonoBehaviour
 {
     public GameAction gameActionObj;
     public UnityEvent handlerEvent;
-    private void Start() {
+    private void Start()
+    {
         gameActionObj.action += Action;
     }
 
     private void Action()
     {
-        handlerEvent.Invoke();   
+        handlerEvent.Invoke();
     }
 }

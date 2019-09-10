@@ -3,6 +3,7 @@
 [CreateAssetMenu]
 public class FloatData : ScriptableObject
 {
+    
     public float value = 1f;
     public float maxValue = 1f;
     
