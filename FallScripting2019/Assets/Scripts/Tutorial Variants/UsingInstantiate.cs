@@ -9,7 +9,7 @@ public class UsingInstantiate : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             Rigidbody projectileInstance;
             projectileInstance = Instantiate(projectile, barrelEnd.position,

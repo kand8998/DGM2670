@@ -71,7 +71,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2285065956645099075}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6678825, z: 0.04782286}
+  m_LocalPosition: {x: -0, y: 0.76, z: 0.04782286}
   m_LocalScale: {x: 1.8181819, y: 0.6288912, z: 2.391143}
   m_Children: []
   m_Father: {fileID: 5782215652465003289}
@@ -88,7 +88,6 @@ GameObject:
   - component: {fileID: 5782215652465003289}
   - component: {fileID: 1899530100788742223}
   - component: {fileID: 2720750818120315478}
-  - component: {fileID: 5596690893926180861}
   m_Layer: 0
   m_Name: CannonBase
   m_TagString: Untagged
@@ -156,19 +155,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5596690893926180861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6790268243963087960}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3113897350295577168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181,15 +167,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: CannonBall
       objectReference: {fileID: 0}
+    - target: {fileID: 8021227229164721234, guid: 23a7500a1435f6547b55bb2529c040d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56900007
+      value: 1.18
       objectReference: {fileID: 0}
     - target: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
         type: 3}
@@ -236,11 +227,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5648923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5648923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5648923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021227229164721233, guid: 23a7500a1435f6547b55bb2529c040d1,
+        type: 3}
+      propertyPath: triggerStayEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4929144226822239751}
+    - target: {fileID: 7172757682197250161, guid: 23a7500a1435f6547b55bb2529c040d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23a7500a1435f6547b55bb2529c040d1, type: 3}
 --- !u!4 &4929144226822239749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8021227229164721237, guid: 23a7500a1435f6547b55bb2529c040d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3113897350295577168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4929144226822239751 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8021227229164721239, guid: 23a7500a1435f6547b55bb2529c040d1,
     type: 3}
   m_PrefabInstance: {fileID: 3113897350295577168}
   m_PrefabAsset: {fileID: 0}
