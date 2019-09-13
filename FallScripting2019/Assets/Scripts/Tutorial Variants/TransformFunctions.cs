@@ -18,7 +18,6 @@ namespace Tutorial_Variants
             {
                 transform.Translate(moveSpeed * Time.deltaTime * Vector3.forward);
             }
-        
         }
     }
 }
