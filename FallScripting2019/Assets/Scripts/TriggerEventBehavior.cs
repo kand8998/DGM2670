@@ -3,14 +3,9 @@ using UnityEngine.Events;
 
 public class TriggerEventBehavior : MonoBehaviour
 {
-   public UnityEvent triggerEnterEvents, triggerStayEvent;
+   public UnityEvent triggerEnterEvents;
    private void OnTriggerEnter(Collider other)
    {
       triggerEnterEvents.Invoke();
-   }
-
-   public void OnTriggerStay(Collider other)
-   {
-      triggerStayEvent.Invoke();
    }
 }

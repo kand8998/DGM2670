@@ -15,6 +15,7 @@
           <e p="MoveBase.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
           <e p="RatchAndClankMonoEvents.cs" t="Include" />
+          <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="Tutorial Variants" t="Include">
             <e p="AwakeAndStart.cs" t="Include" />
@@ -24,7 +25,6 @@
             <e p="EnableComponents.cs" t="Include" />
             <e p="Loops.cs" t="Include" />
             <e p="PlayerDeathsIntReference.cs" t="Include" />
-            <e p="PowerBooster.cs" t="Include" />
             <e p="ProjectileDestruction.cs" t="Include" />
             <e p="ScopeAndAccessModifiers.cs" t="Include" />
             <e p="TransformFunctions.cs" t="Include" />

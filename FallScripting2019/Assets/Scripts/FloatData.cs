@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class FloatData : ScriptableObject
-{
+public class FloatData : ScriptableObject {
     
     public float value = 1f;
     public float maxValue = 1f;
-    
     public void UpdateValue(float amount)
     {
         value += amount;
@@ -35,6 +33,10 @@ public class FloatData : ScriptableObject
             value = maxValue;
         }
         UpdateValueLimitZero(amount);
-       
+    }
+
+    public void ChangeAmount(float amount)
+    {
+        value = amount;
     }
 }
