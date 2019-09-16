@@ -14,16 +14,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/CameraLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PowerBooster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/EnableComponents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/EnableComponents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,6 +53,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PowerBooster.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +121,7 @@
       <workItem from="1568231528436" duration="1573000" />
       <workItem from="1568305942023" duration="1748000" />
       <workItem from="1568396272658" duration="7688000" />
-      <workItem from="1568648077200" duration="658000" />
+      <workItem from="1568648077200" duration="3890000" />
     </task>
     <servers />
   </component>

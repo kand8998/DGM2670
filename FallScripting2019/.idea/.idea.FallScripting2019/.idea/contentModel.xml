@@ -24,6 +24,7 @@
             <e p="EnableComponents.cs" t="Include" />
             <e p="Loops.cs" t="Include" />
             <e p="PlayerDeathsIntReference.cs" t="Include" />
+            <e p="PowerBooster.cs" t="Include" />
             <e p="ProjectileDestruction.cs" t="Include" />
             <e p="ScopeAndAccessModifiers.cs" t="Include" />
             <e p="TransformFunctions.cs" t="Include" />

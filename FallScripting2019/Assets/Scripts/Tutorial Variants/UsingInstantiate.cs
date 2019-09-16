@@ -11,13 +11,12 @@ public class UsingInstantiate : MonoBehaviour
     public UnityEvent instantiateEvent;
     private void Start()
     {
-        instantiateAction.action += Instantiate();
+        //instantiateAction.action += Instantiate();
     }
     
     private void Instantiate()
     {
-        Rigidbody projectileInstance;
-        projectileInstance = Instantiate(projectile, barrelEnd.position,
+        var projectileInstance = Instantiate(projectile, barrelEnd.position,
             barrelEnd.rotation) as Rigidbody;
         projectileInstance.AddForce(barrelEnd.up * 350f);
     }
