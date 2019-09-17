@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -689,7 +689,7 @@ RectTransform:
   - {fileID: 1594527270}
   - {fileID: 1938581424}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1398,7 +1398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175242025
 GameObject:
@@ -1516,7 +1516,7 @@ PrefabInstance:
     - target: {fileID: 4955665291434234646, guid: 04fd46712f1a07847892791705b6a7c5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4955665291434234646, guid: 04fd46712f1a07847892791705b6a7c5,
         type: 3}
@@ -1757,6 +1757,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e1aceea4c55fa40bd852072eee5e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sampleEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  keyUp: 0
 --- !u!108 &1505624197
 Light:
   m_ObjectHideFlags: 0
