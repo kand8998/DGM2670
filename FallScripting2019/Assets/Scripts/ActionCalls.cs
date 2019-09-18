@@ -1,18 +1,50 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class ActionCalls : MonoBehaviour
 {
-    public float speed = 1f, rotateSpeed = 30f, scaleSpeed = 0.2f;
+    public float speed = 1f, rotateSpeed = 30f, scaleSpeed = 0.02f;
     private Vector3 location, rotations, scales;
-    private void Start() {
-        
+
+    public enum TransformStates
+    {
+        Move,
+        Rotate,
+        Scale
     }
+    public TransformStates transformState;
+
+    private void OnMouseDown()
+    {
+        switch (transformState)
+        {
+            case TransformStates.Move:
+                transformState = TransformStates.Rotate;
+                break;
+            case TransformStates.Rotate:
+                transformState = TransformStates.Scale;
+                break;
+            case TransformStates.Scale:
+                transformState = TransformStates.Move;
+                break;
+        }
+    }
+
     private void Update() {
-        Move();
-        OnRotate();
-        OnScale();
+        switch (transformState)
+        {
+            case TransformStates.Move:
+                OnMove();
+                break;
+            case TransformStates.Rotate:
+                OnRotate();
+                break;
+            case TransformStates.Scale:
+                OnScale();
+                break;
+        }
     }
-    public void Move() {
+    public void OnMove() {
         location.x = speed * Time.deltaTime;
         transform.Translate(location);
     }
@@ -24,6 +56,6 @@ public class ActionCalls : MonoBehaviour
 
     public void OnScale(){
         scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
-        transform.localScale = scales;
+        transform.localScale += scales;
     }
 }
