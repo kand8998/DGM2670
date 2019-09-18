@@ -37,7 +37,7 @@ public class ActionCalls : MonoBehaviour
         rotations.y = rotateSpeed * Time.deltaTime;
         transform.Rotate(rotations);
     }
-    public void OnScale(){
+    public void OnScale() {
         scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
         transform.localScale += scales;
     }
