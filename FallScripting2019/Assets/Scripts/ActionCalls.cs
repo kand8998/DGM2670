@@ -1,59 +1,42 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class ActionCalls : MonoBehaviour
 {
     public float speed = 1f, rotateSpeed = 30f, scaleSpeed = 0.02f;
     private Vector3 location, rotations, scales;
+    private UnityAction transformAction;
 
-    public enum TransformStates
-    {
-        Move,
-        Rotate,
-        Scale
+    private void Start() {
+        transformAction = OnMove;
     }
-    public TransformStates transformState;
-
-    private void OnMouseDown()
-    {
-        switch (transformState)
-        {
-            case TransformStates.Move:
-                transformState = TransformStates.Rotate;
-                break;
-            case TransformStates.Rotate:
-                transformState = TransformStates.Scale;
-                break;
-            case TransformStates.Scale:
-                transformState = TransformStates.Move;
-                break;
-        }
-    }
-
     private void Update() {
-        switch (transformState)
+        transformAction();
+    }
+    
+    private void OnMouseDown() {
+        if (transformAction == OnMove)
         {
-            case TransformStates.Move:
-                OnMove();
-                break;
-            case TransformStates.Rotate:
-                OnRotate();
-                break;
-            case TransformStates.Scale:
-                OnScale();
-                break;
+            transformAction = OnRotate;
+        }
+        else if (transformAction == OnRotate)
+        {
+            transformAction = OnScale;
+        }
+        else if (transformAction == OnScale)
+        {
+            transformAction = OnMove;
         }
     }
+    
     public void OnMove() {
         location.x = speed * Time.deltaTime;
         transform.Translate(location);
     }
-
     public void OnRotate() {
         rotations.y = rotateSpeed * Time.deltaTime;
         transform.Rotate(rotations);
     }
-
     public void OnScale(){
         scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
         transform.localScale += scales;

@@ -257,7 +257,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511956047}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -312,7 +312,6 @@ MonoBehaviour:
   speed: 1
   rotateSpeed: 10
   scaleSpeed: 0.02
-  transformState: 0
 --- !u!65 &1517668761
 BoxCollider:
   m_ObjectHideFlags: 0
