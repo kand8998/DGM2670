@@ -7,14 +7,19 @@ namespace Tutorial_Variants
     {
         // Unity tutorial variant
         
-        public UnityEvent sampleEvent;
-        public bool keyUp = Input.GetKeyUp(KeyCode.Space);
+        public UnityEvent enableEvent;
 
-        private void Awake()
+        private void Update()
         {
-            sampleEvent.Invoke();
-            var keyIn = Input.GetKeyUp(KeyCode.K);
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                KeyPress();
+            }
         }
-        
+
+        private void KeyPress()
+        {
+            enableEvent.Invoke();
+        }
     }
 }
