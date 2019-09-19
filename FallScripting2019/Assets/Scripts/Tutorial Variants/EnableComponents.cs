@@ -15,5 +15,6 @@ namespace Tutorial_Variants
             sampleEvent.Invoke();
             var keyIn = Input.GetKeyUp(KeyCode.K);
         }
+        
     }
 }

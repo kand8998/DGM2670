@@ -1,18 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
+
+public class FloatEvent : UnityEvent<float> {
+}
 
 public class EventsWithArgs : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public FloatEvent eventWithFloat;
+    private void Start() {
+        eventWithFloat = new FloatEvent();
+        eventWithFloat.AddListener(PassFloat);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    
+    private void Update() {
+        eventWithFloat.Invoke(10f);
+    }
+
+    private void OnMouseDown() {
+        eventWithFloat.RemoveListener(PassFloat);
+    }
+
+    private void PassFloat(float arg0) {
+        print(arg0);
     }
 }
