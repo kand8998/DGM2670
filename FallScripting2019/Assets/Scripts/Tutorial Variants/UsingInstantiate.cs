@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class UsingInstantiate : MonoBehaviour
@@ -7,16 +8,25 @@ public class UsingInstantiate : MonoBehaviour
 
     public Rigidbody projectile;
     public Transform barrelEnd;
-    public GameAction instantiateAction;
-    public UnityEvent instantiateEvent;
+    private UnityAction instatiateAction;
+
     private void Start()
     {
-        //instantiateAction.action += Instantiate();
+        instatiateAction = Instantiate;
     }
-    
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Instantiate();
+        }
+    }
+
     private void Instantiate()
     {
-        var projectileInstance = Instantiate(projectile, barrelEnd.position,
+        Rigidbody projectileInstance;
+        projectileInstance = Instantiate(projectile, barrelEnd.position,
             barrelEnd.rotation) as Rigidbody;
         projectileInstance.AddForce(barrelEnd.up * 350f);
     }

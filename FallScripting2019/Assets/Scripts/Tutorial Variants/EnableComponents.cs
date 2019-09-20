@@ -16,7 +16,6 @@ namespace Tutorial_Variants
                 KeyPress();
             }
         }
-
         private void KeyPress()
         {
             enableEvent.Invoke();
