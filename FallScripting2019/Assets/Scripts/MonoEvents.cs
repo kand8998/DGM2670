@@ -3,8 +3,7 @@ using UnityEngine.Events;
 
 public class MonoEvents : MonoBehaviour
 {
-    public UnityEvent startEvent, updateEvent, mouseDownEvent, collisionEnterEvent, 
-        mouseDragEvent, particleCollisionEvent;
+    public UnityEvent startEvent, updateEvent, mouseDownEvent, collisionEnterEvent;
     
     private void Start()
     {
@@ -25,15 +24,5 @@ public class MonoEvents : MonoBehaviour
     {
        collisionEnterEvent.Invoke();
        
-    }
-
-    private void OnMouseDrag()
-    {
-        mouseDragEvent.Invoke();
-    }
-
-    private void OnParticleCollision(GameObject other)
-    {
-        particleCollisionEvent.Invoke();
     }
 }
