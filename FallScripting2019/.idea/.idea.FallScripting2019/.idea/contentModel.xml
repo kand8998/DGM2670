@@ -29,6 +29,7 @@
             <e p="DataTypeScript.cs" t="Include" />
             <e p="EnableComponents.cs" t="Include" />
             <e p="Loops.cs" t="Include" />
+            <e p="MouseCursor.cs" t="Include" />
             <e p="PlayerDeathsIntReference.cs" t="Include" />
             <e p="ProjectileDestruction.cs" t="Include" />
             <e p="ScopeAndAccessModifiers.cs" t="Include" />

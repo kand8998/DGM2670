@@ -10,10 +10,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
               <folding>
                 <marker date="1569531977604" expanded="true" signature="6:44" ph="..." />
@@ -27,6 +27,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <marker date="1569534953463" expanded="true" signature="60:667" ph="{...}" />
+                <marker date="1569534953463" expanded="true" signature="206:293" ph="{...}" />
+                <marker date="1569534953463" expanded="true" signature="320:665" ph="{...}" />
+                <marker date="1569534953463" expanded="true" signature="497:555" ph="{...}" />
+                <marker date="1569534953463" expanded="true" signature="599:659" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -35,6 +51,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,12 +101,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/LevelChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
-    <option name="width" value="1203" />
+    <option name="x" value="721" />
+    <option name="width" value="1204" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1Q4AGXU4y7JB6wXLPj1Rxdqxh8e" />
@@ -171,11 +189,12 @@
       <workItem from="1569351746325" duration="901000" />
       <workItem from="1569530755999" duration="73000" />
       <workItem from="1569531794019" duration="184000" />
+      <workItem from="1569533552571" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1158000" />
+    <option name="totallyTimeSpent" value="2674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,7 +206,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="0" width="962" height="832" extended-state="0" />
+    <frame x="577" y="0" width="963" height="832" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -273,19 +292,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuStart.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/LevelChanger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/LevelChanger.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
           <folding>
             <marker date="1569531977604" expanded="true" signature="6:44" ph="..." />
@@ -294,6 +304,20 @@
             <marker date="1569531977604" expanded="true" signature="269:311" ph="{...}" />
             <marker date="1569531977604" expanded="true" signature="343:388" ph="{...}" />
             <marker date="1569531977604" expanded="true" signature="440:497" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <marker date="1569534953463" expanded="true" signature="60:667" ph="{...}" />
+            <marker date="1569534953463" expanded="true" signature="206:293" ph="{...}" />
+            <marker date="1569534953463" expanded="true" signature="320:665" ph="{...}" />
+            <marker date="1569534953463" expanded="true" signature="497:555" ph="{...}" />
+            <marker date="1569534953463" expanded="true" signature="599:659" ph="{...}" />
           </folding>
         </state>
       </provider>
