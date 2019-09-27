@@ -1,28 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 
-public class MouseCursor : MonoBehaviour
+namespace Tutorial_Variants
 {
-    // Tutorial Variant
-    private SpriteRenderer rend;
-    public Sprite handCursor;
-    public Sprite normalCursor;
-    private void Start() {
-        Cursor.visible = false;
-        rend = GetComponent<SpriteRenderer>();
-    }
-
-    private void Update()
+    public class MouseCursor : MonoBehaviour
     {
-        Vector3 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = cursorPos;
+        // Tutorial Variant
         
-        if (Input.GetMouseButtonDown(0))
-        {
-            rend.sprite = handCursor;
+        private void Start() {
         }
-        else if (Input.GetMouseButtonUp(0))
+
+        private void Update()
         {
-            rend.sprite = normalCursor;
+            CursorFollow();
+     
+        }
+
+        public void CursorFollow()
+        {
+            Vector2 cursorPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+            transform.position = cursorPos;
         }
     }
 }
