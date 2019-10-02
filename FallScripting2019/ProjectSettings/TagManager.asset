@@ -18,19 +18,19 @@ TagManager:
   - Ammo
   - 
   - 
-  - PowerUp
-  - 
   - Player
   - 
   - 
   - 
   - 
+  - Ground
+  - 
+  - 
+  - Enemy
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - PowerUps
   - 
   - 
   - 

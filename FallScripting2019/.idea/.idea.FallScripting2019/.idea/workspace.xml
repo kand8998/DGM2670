@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +68,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/LevelChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AiWithNavMesh.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +148,7 @@
       <workItem from="1569531794019" duration="184000" />
       <workItem from="1569533552571" duration="1516000" />
       <workItem from="1569621057308" duration="1449000" />
+      <workItem from="1569872146439" duration="2669000" />
     </task>
     <servers />
   </component>
