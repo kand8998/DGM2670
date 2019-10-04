@@ -9,28 +9,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiHunt.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding>
-                <marker date="1570129237400" expanded="true" signature="6:80" ph="..." />
-                <marker date="1570129237400" expanded="true" signature="216:691" ph="{...}" />
-                <marker date="1570129237400" expanded="true" signature="316:361" ph="{...}" />
-                <marker date="1570129237400" expanded="true" signature="396:448" ph="{...}" />
-                <marker date="1570129237400" expanded="true" signature="504:689" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <marker date="1570129239871" expanded="false" signature="6:44" ph="..." />
                 <marker date="1570129239871" expanded="true" signature="106:228" ph="{...}" />
@@ -41,14 +25,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiBase.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            <state relative-caret-position="402">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding>
-                <marker date="1570129239849" expanded="true" signature="6:40" ph="..." />
-                <marker date="1570129239849" expanded="true" signature="138:302" ph="{...}" />
-                <marker date="1570129239849" expanded="true" signature="279:300" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="80:773" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="189:226" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="278:422" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="307:360" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="373:416" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="485:691" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="522:575" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="588:638" ph="{...}" />
+                <marker date="1570210472766" expanded="true" signature="735:771" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <marker date="1570210472750" expanded="true" signature="6:78" ph="..." />
+                <marker date="1570210472750" expanded="true" signature="138:175" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiHunt.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1570211040292" expanded="true" signature="6:66" ph="..." />
+                <marker date="1570211040292" expanded="true" signature="201:703" ph="{...}" />
+                <marker date="1570211040292" expanded="true" signature="324:371" ph="{...}" />
+                <marker date="1570211040292" expanded="true" signature="400:452" ph="{...}" />
+                <marker date="1570211040292" expanded="true" signature="508:701" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,6 +80,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,6 +92,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AiHunt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/EnableComponents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AiBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +122,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/ProjectileDestruction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PowerBooster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActionCalls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatEvent.cs" />
@@ -119,13 +138,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AiBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AiHunt.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="720" />
     <option name="width" value="1205" />
     <option name="height" value="1040" />
@@ -214,11 +235,12 @@
       <workItem from="1569872146439" duration="2669000" />
       <workItem from="1570043176340" duration="5218000" />
       <workItem from="1570127754730" duration="1485000" />
+      <workItem from="1570209779014" duration="1287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1485000" />
+    <option name="totallyTimeSpent" value="2772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,20 +252,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="576" y="0" width="964" height="832" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -251,12 +264,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,10 +337,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiWithNavMesh.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1570069430057" expanded="false" signature="6:54" ph="..." />
+            <marker date="1570069430057" expanded="true" signature="139:615" ph="{...}" />
+            <marker date="1570069430057" expanded="true" signature="240:331" ph="{...}" />
+            <marker date="1570069430057" expanded="true" signature="380:422" ph="{...}" />
+            <marker date="1570069430057" expanded="true" signature="470:515" ph="{...}" />
+            <marker date="1570069430057" expanded="true" signature="542:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1570210472750" expanded="true" signature="6:78" ph="..." />
+            <marker date="1570210472750" expanded="true" signature="138:175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <marker date="1570210102105" expanded="true" signature="6:40" ph="..." />
+            <marker date="1570210102105" expanded="true" signature="138:299" ph="{...}" />
+            <marker date="1570210102105" expanded="true" signature="285:297" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <marker date="1570129239871" expanded="false" signature="6:44" ph="..." />
             <marker date="1570129239871" expanded="true" signature="106:228" ph="{...}" />
@@ -327,28 +387,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiBase.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="402">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding>
-            <marker date="1570129239849" expanded="true" signature="6:40" ph="..." />
-            <marker date="1570129239849" expanded="true" signature="138:302" ph="{...}" />
-            <marker date="1570129239849" expanded="true" signature="279:300" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="80:773" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="189:226" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="278:422" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="307:360" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="373:416" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="485:691" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="522:575" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="588:638" ph="{...}" />
+            <marker date="1570210472766" expanded="true" signature="735:771" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AiHunt.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state>
           <folding>
-            <marker date="1570129237400" expanded="true" signature="6:80" ph="..." />
-            <marker date="1570129237400" expanded="true" signature="216:691" ph="{...}" />
-            <marker date="1570129237400" expanded="true" signature="316:361" ph="{...}" />
-            <marker date="1570129237400" expanded="true" signature="396:448" ph="{...}" />
-            <marker date="1570129237400" expanded="true" signature="504:689" ph="{...}" />
+            <marker date="1570211040292" expanded="true" signature="6:66" ph="..." />
+            <marker date="1570211040292" expanded="true" signature="201:703" ph="{...}" />
+            <marker date="1570211040292" expanded="true" signature="324:371" ph="{...}" />
+            <marker date="1570211040292" expanded="true" signature="400:452" ph="{...}" />
+            <marker date="1570211040292" expanded="true" signature="508:701" ph="{...}" />
           </folding>
         </state>
       </provider>

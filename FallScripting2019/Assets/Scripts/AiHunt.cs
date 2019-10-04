@@ -1,29 +1,29 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
-//Script Based on Professor's Methods
+//Script Based on Professor's Script
 [CreateAssetMenu(fileName = "Hunt", menuName = "Ai/Function/Hunt")]
 public class AiHunt : AiBase
 {
-    public GameAction GameAction;
+    public GameAction gameAction;
     private Transform destination;
+    public object obj;
 
     private void OnEnable()
     {
-        GameAction.call += Call;
+        gameAction.action += Call;
     }
-
-    private void Call(object obj)
+    
+    private void Call()
     {
         destination = obj as Transform;
     }
     
     public override void Navigate(NavMeshAgent ai)
     {
-        ai.speed = Speed.Value;
-        ai.angularSpeed = AngularSpeed.Value;
+        ai.speed = speed.baseValue;
+        ai.angularSpeed = angularSpeed.baseValue;
         ai.destination = (destination != null ? destination.position : ai.transform.position);
     }
 }

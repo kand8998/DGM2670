@@ -14,6 +14,7 @@
           <e p="CharacterMover.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
           <e p="EventsWithArgs.cs" t="Include" />
+          <e p="FloatBase.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
@@ -22,7 +23,6 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoveBase.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
-          <e p="RatchAndClankMonoEvents.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
