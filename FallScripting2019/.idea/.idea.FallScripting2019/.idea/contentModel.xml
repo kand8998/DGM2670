@@ -14,7 +14,6 @@
           <e p="CharacterMover.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
           <e p="EventsWithArgs.cs" t="Include" />
-          <e p="FloatBase.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />

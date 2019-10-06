@@ -22,8 +22,8 @@ public class AiHunt : AiBase
     
     public override void Navigate(NavMeshAgent ai)
     {
-        ai.speed = speed.baseValue;
-        ai.angularSpeed = angularSpeed.baseValue;
+        ai.speed = speedData.value;
+        ai.angularSpeed = angularSpeed.value;
         ai.destination = (destination != null ? destination.position : ai.transform.position);
     }
 }
