@@ -3,22 +3,19 @@ using UnityEngine.Experimental.UIElements;
 
 namespace Tutorial_Variants
 {
-    public class MouseCursor : MonoBehaviour
+    public class MouseFollow : MonoBehaviour
     {
         // Tutorial Variant
-        
-        private void Start() {
-        }
 
         private void Update()
         {
-            CursorFollow();
+            CursorTrail();
      
         }
 
-        public void CursorFollow()
+        public void CursorTrail()
         {
-            Vector2 cursorPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+            Vector3 cursorPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             transform.position = cursorPos;
         }
     }

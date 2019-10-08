@@ -7,18 +7,18 @@ namespace Tutorial_Variants
     {
         //Unity Tutorial Variant;
         public GameObject otherGameObject;
-        private PlayerDeathsIntReference _playerDeathsIntReference;
+        private PlayerDeathsIntReference playerDeathsIntReference;
    
     
         private void Awake()
         {
-            _playerDeathsIntReference = GetComponent<PlayerDeathsIntReference>();
+            playerDeathsIntReference = GetComponent<PlayerDeathsIntReference>();
         }
 
         private void OnMouseDown()
         {
-            Debug.Write("The player score is{_playerDeathsIntReference.playerScore}");
-            Debug.Write("The player has died" + _playerDeathsIntReference.numberOfPlayerDeaths + "times");
+            Debug.Write("The player score is{playerDeathsIntReference.playerScore}");
+            Debug.Write("The player has died" + playerDeathsIntReference.numberOfPlayerDeaths + "times");
         }
     
     }

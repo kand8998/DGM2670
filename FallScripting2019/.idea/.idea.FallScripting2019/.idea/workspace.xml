@@ -8,30 +8,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UpdateAndFixedUpdate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/ScopeAndAccessModifiers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/CameraLookAt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collections.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseCursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/GetAxis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/EnableComponents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/CameraLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,7 +53,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/usingOtherComponents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/DataTypeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
@@ -77,11 +81,28 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AiBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AiHunt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collections.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/CameraLookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/AxisExampleHorizontalVertical.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/GetAxis.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/ScopeAndAccessModifiers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs" />
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="720" />
+    <option name="width" value="1205" />
+    <option name="height" value="1040" />
+  </component>
   <component name="ProjectId" id="1Q4AGXU4y7JB6wXLPj1Rxdqxh8e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -161,8 +182,52 @@
       <workItem from="1570209779014" duration="1287000" />
       <workItem from="1570331282368" duration="594000" />
       <workItem from="1570478973579" duration="1042000" />
+      <workItem from="1570561305109" duration="387000" />
+      <workItem from="1570561758607" duration="353000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="740000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -175,6 +240,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -212,5 +283,157 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/CameraLookAt.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <marker date="1570561358795" expanded="true" signature="47:337" ph="{...}" />
+            <marker date="1570561358795" expanded="true" signature="95:335" ph="{...}" />
+            <marker date="1570561358795" expanded="true" signature="198:240" ph="{...}" />
+            <marker date="1570561358795" expanded="true" signature="271:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/DataTypeScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/AxisExampleHorizontalVertical.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/Loops.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/MouseFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <marker date="1570561831897" expanded="true" signature="6:61" ph="..." />
+            <marker date="1570561831897" expanded="true" signature="90:450" ph="{...}" />
+            <marker date="1570561831897" expanded="true" signature="137:448" ph="{...}" />
+            <marker date="1570561831897" expanded="true" signature="202:255" ph="{...}" />
+            <marker date="1570561831897" expanded="true" signature="290:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/ScopeAndAccessModifiers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <marker date="1570561960435" expanded="true" signature="47:641" ph="{...}" />
+            <marker date="1570561960435" expanded="true" signature="106:639" ph="{...}" />
+            <marker date="1570561960435" expanded="true" signature="291:411" ph="{...}" />
+            <marker date="1570561960435" expanded="true" signature="442:633" ph="{...}" />
+            <marker date="1570561960435" expanded="true" signature="495:610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/TransformFunctions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1568428644397" expanded="true" signature="47:551" ph="{...}" />
+            <marker date="1568428644397" expanded="true" signature="101:549" ph="{...}" />
+            <marker date="1568428644397" expanded="true" signature="208:331" ph="{...}" />
+            <marker date="1568428644397" expanded="true" signature="362:543" ph="{...}" />
+            <marker date="1568428644397" expanded="true" signature="422:533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingOtherComponents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <marker date="1570562076693" expanded="false" signature="6:58" ph="..." />
+            <marker date="1570562076693" expanded="true" signature="87:693" ph="{...}" />
+            <marker date="1570562076693" expanded="true" signature="143:691" ph="{...}" />
+            <marker date="1570562076693" expanded="true" signature="331:432" ph="{...}" />
+            <marker date="1570562076693" expanded="true" signature="468:680" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingInstantiate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <marker date="1569026906158" expanded="false" signature="6:58" ph="..." />
+            <marker date="1569026906158" expanded="true" signature="105:712" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="271:323" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="350:450" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="397:444" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="482:709" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UsingDeltaTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1568428644398" expanded="false" signature="6:32" ph="..." />
+            <marker date="1568428644398" expanded="true" signature="77:523" ph="{...}" />
+            <marker date="1568428644398" expanded="true" signature="232:521" ph="{...}" />
+            <marker date="1568428644398" expanded="true" signature="303:370" ph="{...}" />
+            <marker date="1568428644398" expanded="true" signature="416:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/UpdateAndFixedUpdate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1567868120311" expanded="true" signature="47:450" ph="{...}" />
+            <marker date="1567868120311" expanded="true" signature="103:448" ph="{...}" />
+            <marker date="1567868120311" expanded="true" signature="254:335" ph="{...}" />
+            <marker date="1567868120311" expanded="true" signature="366:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/PlayerDeathsIntReference.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1567868120308" expanded="true" signature="47:232" ph="{...}" />
+            <marker date="1567868120308" expanded="true" signature="107:230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/GetAxis.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <marker date="1570561658829" expanded="true" signature="47:558" ph="{...}" />
+            <marker date="1570561658829" expanded="true" signature="90:556" ph="{...}" />
+            <marker date="1570561658829" expanded="true" signature="192:246" ph="{...}" />
+            <marker date="1570561658829" expanded="true" signature="290:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial Variants/EnableComponents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1569026906158" expanded="false" signature="6:44" ph="..." />
+            <marker date="1569026906158" expanded="true" signature="73:461" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="125:459" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="244:367" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="301:357" ph="{...}" />
+            <marker date="1569026906158" expanded="true" signature="399:453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

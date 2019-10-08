@@ -19,8 +19,12 @@ namespace Tutorial_Variants
 
         private void Update()
         {
-            Debug.Log("Alpha is set to: " + alpha);
-            beta += gamma;
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                Debug.Log("Alpha is set to: " + alpha);
+                beta += gamma;
+            }
+            
         }
     }
 }
