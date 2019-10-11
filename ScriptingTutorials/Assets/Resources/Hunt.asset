@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd084acc1b924f4e8e60733b2a2875a, type: 3}
+  m_Name: Hunt
+  m_EditorClassIdentifier: 
+  speedData: {fileID: 11400000, guid: 7264dff6650c1c249b23785f7f280e5a, type: 2}
+  angularSpeed: {fileID: 11400000, guid: e8a060d9ec5e83e4699020e29868b779, type: 2}
+  gameAction: {fileID: 11400000, guid: 228acb0998b1d93408f06f114d2a425c, type: 2}
