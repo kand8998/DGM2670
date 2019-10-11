@@ -22,6 +22,7 @@
           <e p="Collections.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
           <e p="DraggableObj.cs" t="Include" />
+          <e p="DragObj.cs" t="Include" />
           <e p="EventsWithArgs.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
