@@ -1,26 +1,35 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
+[RequireComponent(typeof(Camera))]
 public class DragObj : MonoBehaviour
 {
-    //Initial Script is From Tutorial
-    private Vector3 mouseOffset;
+    private Vector3 offsetPosition;
     private float mouseZCoordinate;
+    public Camera cam;
+    public bool Draggable { get; set; }
+
+    private void Start()
+    {
+        cam = Camera.main;
+    }
 
     private void OnMouseDown()
     {
-        mouseZCoordinate = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
-        mouseOffset = gameObject.transform.position - GetMouseWorldPos();
+        Draggable = true;
+        mouseZCoordinate = cam.WorldToScreenPoint(gameObject.transform.position).z;
+        offsetPosition = gameObject.transform.position - GetMouseWorldPos();
     }
 
     private Vector3 GetMouseWorldPos()
     {
         Vector3 mousePoint = Input.mousePosition;
         mousePoint.z = mouseZCoordinate;
-        return Camera.main.ScreenToWorldPoint(mousePoint);
+        return cam.ScreenToWorldPoint(mousePoint);
     }
 
     private void OnMouseDrag()
     {
-        transform.position = GetMouseWorldPos() + mouseOffset;
+        transform.position = GetMouseWorldPos() + offsetPosition;
     }
 }
