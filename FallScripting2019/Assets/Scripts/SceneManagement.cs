@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagement : MonoBehaviour
+[CreateAssetMenu]
+public class SceneManagement : ScriptableObject
 {
     public void LoadScene (string sceneName)
     {
