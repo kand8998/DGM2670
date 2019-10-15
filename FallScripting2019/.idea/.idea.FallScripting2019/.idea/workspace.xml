@@ -37,27 +37,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
                 <marker date="1571112158996" expanded="true" signature="84:179" ph="{...}" />
                 <marker date="1571112158996" expanded="true" signature="130:177" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <marker date="1571160699731" expanded="true" signature="6:53" ph="..." />
-                <marker date="1571160699731" expanded="true" signature="120:224" ph="{...}" />
-                <marker date="1571160699731" expanded="true" signature="167:222" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -257,12 +243,12 @@
       <workItem from="1570749970551" duration="763000" />
       <workItem from="1570820521015" duration="705000" />
       <workItem from="1571080677325" duration="4621000" />
-      <workItem from="1571160240334" duration="460000" />
+      <workItem from="1571160240334" duration="1057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460000" />
+    <option name="totallyTimeSpent" value="1057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,8 +260,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="576" y="0" width="964" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="576" y="0" width="964" height="832" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -372,16 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1571112158996" expanded="true" signature="84:179" ph="{...}" />
-            <marker date="1571112158996" expanded="true" signature="130:177" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -401,6 +376,16 @@
             <marker date="1571160699731" expanded="true" signature="6:53" ph="..." />
             <marker date="1571160699731" expanded="true" signature="120:224" ph="{...}" />
             <marker date="1571160699731" expanded="true" signature="167:222" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1571112158996" expanded="true" signature="84:179" ph="{...}" />
+            <marker date="1571112158996" expanded="true" signature="130:177" ph="{...}" />
           </folding>
         </state>
       </provider>

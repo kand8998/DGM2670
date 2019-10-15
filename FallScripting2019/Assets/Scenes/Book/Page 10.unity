@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029216190}
+      - m_Target: {fileID: 11400000, guid: c7b69c9d4d463ba42a5d3dbd1fedf144, type: 2}
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
@@ -373,7 +373,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431297012
 GameObject:
@@ -424,7 +424,7 @@ Transform:
   m_Children:
   - {fileID: 1561885742}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &516324934
 GameObject:
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029216190}
+      - m_Target: {fileID: 11400000, guid: c7b69c9d4d463ba42a5d3dbd1fedf144, type: 2}
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
@@ -718,7 +718,6 @@ GameObject:
   - component: {fileID: 1029216189}
   - component: {fileID: 1029216188}
   - component: {fileID: 1029216187}
-  - component: {fileID: 1029216190}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -790,18 +789,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1029216190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029216186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9745d46c35912e4cbf45e2640a09d47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1561885741
 GameObject:
   m_ObjectHideFlags: 0

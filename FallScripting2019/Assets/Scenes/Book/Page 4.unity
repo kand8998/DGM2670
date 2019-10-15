@@ -259,7 +259,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029216190}
+      - m_Target: {fileID: 11400000, guid: c7b69c9d4d463ba42a5d3dbd1fedf144, type: 2}
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
@@ -340,7 +340,7 @@ Transform:
   m_Children:
   - {fileID: 1371231416}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &230255945
 Rigidbody:
@@ -370,6 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83616e20eaf9dc4f9cbbffc21cf2062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 1029216188}
 --- !u!1 &247084978
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +435,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431297012
 GameObject:
@@ -565,7 +566,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029216190}
+      - m_Target: {fileID: 11400000, guid: c7b69c9d4d463ba42a5d3dbd1fedf144, type: 2}
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
@@ -700,8 +701,6 @@ GameObject:
   - component: {fileID: 1029216189}
   - component: {fileID: 1029216188}
   - component: {fileID: 1029216187}
-  - component: {fileID: 1029216190}
-  - component: {fileID: 1029216191}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -773,40 +772,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1029216190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029216186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9745d46c35912e4cbf45e2640a09d47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1029216191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029216186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c12135b1f155394a835572405812218, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDrag:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnUp:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1371231415
 GameObject:
   m_ObjectHideFlags: 0
