@@ -1,4 +1,6 @@
-﻿public interface IRun
+﻿using UnityEngine.Events;
+
+public interface IRun
 {
     float Speed { get; set; }
     void Run();
@@ -8,5 +10,13 @@
 public interface ITest
 {
     void Test();
+}
+
+public interface IListen
+{
+    UnityEvent Event { get; set; }
+    IRun NewIRunObj { get; set;}
+     void Start();
+    
 }
     
