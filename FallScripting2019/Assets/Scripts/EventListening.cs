@@ -1,25 +1,22 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class EventListening : MonoBehaviour
 {
-    private UnityEvent mouseClickEvent = new UnityEvent();
-    public UnityEvent configureMouseEvent;
+    private UnityEvent Event = new UnityEvent();
+    public Object IRunObj;
+    public IRun newIRunObj;
 
     private void Start()
     {
-        mouseClickEvent.AddListener(MouseClick);
+        newIRunObj = IRunObj as IRun;
+       Event.AddListener(newIRunObj.Run);
     }
+    
 
-    private void MouseClick()
+    private void OnDown()
     {
-        configureMouseEvent.Invoke();
-        mouseClickEvent.RemoveListener(MouseClick);
-    }
-
-    private void OnMouseDown()
-    {
-        mouseClickEvent.Invoke();
+      Event.Invoke();
+      Event.RemoveListener(newIRunObj.Run);
     }
 }

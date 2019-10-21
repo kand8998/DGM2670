@@ -35,11 +35,18 @@
           <e p="ImageController.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="DoDamage.cs" t="Include" />
+            <e p="Interface.cs" t="Include" />
+            <e p="PlayerHealth.cs" t="Include" />
+            <e p="PowerUp.cs" t="Include" />
+          </e>
           <e p="MonoEventBehaviour.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="TriggerListener.cs" t="Include" />
           <e p="Tutorial Variants" t="Include">
             <e p="EnableComponents.cs" t="Include" />
             <e p="GetAxis.cs" t="Include" />
