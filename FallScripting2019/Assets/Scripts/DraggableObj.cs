@@ -1,47 +1,35 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
+[RequireComponent(typeof(Camera))]
 public class DraggableObj : MonoBehaviour
 {
-    //Initial Script Based on Instructor
     private Vector3 offsetPosition;
-    private Vector3 newPosition;
-    private Camera cam;
-    
-    public bool CanDrag { get; set; }
-    public UnityEvent OnDrag, OnUp;
+    private float mouseZCoordinate;
+    public Camera cam;
     public bool Draggable { get; set; }
 
-    void Start()
+    private void Start()
     {
         cam = Camera.main;
+    }
+
+    private void OnMouseDown()
+    {
         Draggable = true;
+        mouseZCoordinate = cam.WorldToScreenPoint(gameObject.transform.position).z;
+        offsetPosition = gameObject.transform.position - GetMouseWorldPos();
     }
 
-    public IEnumerator OnMouseDown()
+    private Vector3 GetMouseWorldPos()
     {
-        OnDrag.Invoke();
-        offsetPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
-        yield return new WaitForFixedUpdate();
-        CanDrag = true;
-        
-        while (CanDrag)
-        {
-            yield return new WaitForFixedUpdate();
-            newPosition = cam.ScreenToWorldPoint(Input.mousePosition) + offsetPosition;
-            transform.position = newPosition;
-        }
+        Vector3 mousePoint = Input.mousePosition;
+        mousePoint.z = mouseZCoordinate;
+        return cam.ScreenToWorldPoint(mousePoint);
     }
 
-    private void OnMouseUp()
+    private void OnMouseDrag()
     {
-        CanDrag = false;
-        if (Draggable)
-        {
-            OnUp.Invoke();
-        }
+        transform.position = GetMouseWorldPos() + offsetPosition;
     }
 }
