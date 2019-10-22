@@ -1,18 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
+[RequireComponent(typeof(Camera))]
 public class DraggableDown : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Vector3 offsetPosition;
+    private float mouseZCoordinate;
+    public Camera cam;
+    public bool Draggable { get; set; }
+    public GameAction gameActionDown;
+    private void Start()
     {
-        
+        cam = Camera.main;
+        gameActionDown.action = DragOn;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void DragOn()
     {
-        
+        Draggable = true;
+        mouseZCoordinate = cam.WorldToScreenPoint(gameObject.transform.position).z;
+        offsetPosition = gameObject.transform.position - GetMouseWorldPos();
+    }
+    
+    private Vector3 GetMouseWorldPos()
+    {
+        Vector3 mousePoint = Input.mousePosition;
+        mousePoint.z = mouseZCoordinate;
+        return cam.ScreenToWorldPoint(mousePoint);
     }
 }

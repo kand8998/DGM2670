@@ -25,9 +25,10 @@
           <e p="Coroutines.cs" t="Include" />
           <e p="CreateSOData.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
+          <e p="DragBase.cs" t="Include" />
           <e p="DraggableDown.cs" t="Include" />
           <e p="DraggableObj.cs" t="Include" />
-          <e p="DraggableUp.cs" t="Include" />
+          <e p="DragMoving.cs" t="Include" />
           <e p="EventListening.cs" t="Include" />
           <e p="EventsWithArgs.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
