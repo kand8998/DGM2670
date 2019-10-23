@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\kand8\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\kand8\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_FallScripting2019.584056906.00" t="ExcludeRecursive" />
-    <e p="C:\Users\kand8\Documents\School 19-20\Scripting\DGM2670\FallScripting2019" t="IncludeRecursive">
+    <e p="C:\Users\10847775\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10847775\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_FallScripting2019.-86512940.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10847775\Documents\Scripting\DGM2670\FallScripting2019" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -40,6 +40,9 @@
           <e p="Interfaces" t="Include">
             <e p="DoDamage.cs" t="Include" />
             <e p="Interface.cs" t="Include" />
+            <e p="MoveController.cs" t="Include" />
+            <e p="MoveHVArrows.cs" t="Include" />
+            <e p="MoveLRArrows.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PowerUp.cs" t="Include" />
           </e>
