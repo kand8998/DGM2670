@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-[RequireComponent(typeof(Camera))]
+
 public class DraggableObj : MonoBehaviour
 {
     private Vector3 offsetPosition;

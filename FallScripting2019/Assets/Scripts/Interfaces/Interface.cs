@@ -25,4 +25,12 @@ public interface IMove
     Vector3 location { get; set; }
     void Move(CharacterController controller);
 }
+
+public interface IDrag
+{
+    Vector3 offsetPosition { get; set; }
+    float mouseZCoordinate { get; set;}
+    Camera cam { get; set; }
+    bool Draggable { get; set; }
+}
     
