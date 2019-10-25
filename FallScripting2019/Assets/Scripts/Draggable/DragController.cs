@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using System.ComponentModel;
+using UnityEngine;
 
 public class DragController : MonoBehaviour
 {
     private Vector3 offsetPosition;
     private float mouseZCoordinate;
-    private IDrag iDragger;
+    public GameAction Action;
 
     public Camera cam;
     void Start()
@@ -12,8 +14,8 @@ public class DragController : MonoBehaviour
         cam = Camera.main;
     }
 
-    public void ChangeDragger(GameAction newAction)
+    private void OnMouseDown()
     {
-        iDragger = newAction as IDrag;
+        
     }
 }

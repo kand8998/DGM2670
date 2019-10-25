@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -379,6 +379,7 @@ GameObject:
   - component: {fileID: 230255945}
   - component: {fileID: 230255949}
   - component: {fileID: 230255948}
+  - component: {fileID: 230255943}
   m_Layer: 0
   m_Name: DragableController
   m_TagString: Untagged
@@ -386,6 +387,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &230255943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230255942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2147af43ae0f95142b987c5c071c3533, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: f6660a515dacf70459c2ca32260cc657, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8007029}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &230255944
 Transform:
   m_ObjectHideFlags: 0
@@ -430,6 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5e5b9d500b0eb4c86d1a93d5b0d67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Action: {fileID: 0}
   cam: {fileID: 0}
 --- !u!114 &230255949
 MonoBehaviour:
@@ -446,7 +477,7 @@ MonoBehaviour:
   mouseDownEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8007029}
+      - m_Target: {fileID: 230255942}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:

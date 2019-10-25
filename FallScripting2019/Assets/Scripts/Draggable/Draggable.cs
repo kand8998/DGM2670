@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Draggable : MousePosition
+public class Draggable : MousePosition, IDrag
 {
     public GameAction Action;
     private void Start()
