@@ -8,9 +8,9 @@ public class Draggable : MousePosition, IDrag
     public GameAction Action;
     private void Start()
     {
-        Action.action = MakeDraggable;
+        Action.action += MakeDraggable;
+        cam = Camera.main;
     }
-
     private void MakeDraggable()
     {
         Draggable = true;

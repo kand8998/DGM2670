@@ -13,9 +13,4 @@ public class DragController : MonoBehaviour
     {
         cam = Camera.main;
     }
-
-    private void OnMouseDown()
-    {
-        
-    }
 }

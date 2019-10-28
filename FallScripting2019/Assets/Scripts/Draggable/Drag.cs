@@ -3,7 +3,7 @@
     public GameAction Action;
     private void Start()
     {
-        Action.action = Dragging;
+        Action.action += Dragging;
     }
     private void Dragging()
     {
