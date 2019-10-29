@@ -8,7 +8,7 @@ public class MoveHVArrows : ScriptableObject, IMove
 
     public void Move(CharacterController controller)
     {
-        newLoc.y = Input.GetAxis("Horizontal")*Time.deltaTime;
+        newLoc.y = Input.GetAxis("Horizontal");
         controller.Move(newLoc);
     }
 }
