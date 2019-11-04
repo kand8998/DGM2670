@@ -8,6 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ActionCalls.cs" t="Include" />
+          <e p="ActionPrac" t="Include">
+            <e p="Anthony.cs" t="Include" />
+            <e p="Marti.cs" t="Include" />
+            <e p="Rodayne.cs" t="Include" />
+          </e>
           <e p="AiBase.cs" t="Include" />
           <e p="AiHunt.cs" t="Include" />
           <e p="AIWithNavMesh.cs" t="Include" />
