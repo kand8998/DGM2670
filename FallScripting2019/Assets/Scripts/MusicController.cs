@@ -1,8 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class MusicController : MonoBehaviour
 {
+    public GameAction Action;
     private AudioSource audioSource;
+
+    private void Start()
+    {
+        Action.action += StopMusic;
+    }
 
     private void Awake()
     {
