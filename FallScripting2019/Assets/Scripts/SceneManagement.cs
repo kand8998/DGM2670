@@ -4,8 +4,9 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu]
 public class SceneManagement : ScriptableObject
 {
-    public void LoadScene (string sceneName)
+    public void LoadScene (Object sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        var newName = sceneName.name;
+        SceneManager.LoadScene(newName);
     }
 }
