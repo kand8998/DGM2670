@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8149072642718777221}
   - component: {fileID: 675151448212658544}
   - component: {fileID: 829127902739650189}
-  - component: {fileID: 4179124314454909178}
   m_Layer: 0
   m_Name: MarbleController
   m_TagString: Untagged
@@ -63,25 +62,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4179124314454909178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671811525914591230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daacffc6a5fc6b24da5486e69c4249e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyableObj: {fileID: 5178741480901861035}
 --- !u!1 &5178741480901861035
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6407847907855668941, guid: f69a8842ecb983543b5aa85e306be53f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2292281643282571536}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -97,9 +82,8 @@ GameObject:
 --- !u!4 &6228097280465443169
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2292281643282571536}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5178741480901861035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -112,9 +96,8 @@ Transform:
 --- !u!212 &2333310763134275377
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4562779252973176663, guid: f69a8842ecb983543b5aa85e306be53f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2292281643282571536}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5178741480901861035}
   m_Enabled: 1
@@ -158,89 +141,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &2292281643282571536
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 8149072642718777221}
-    m_Modifications:
-    - target: {fileID: 6407847907855668941, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_Name
-      value: Marble Icon
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.30999982
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.52888894
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286398245268082951, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8140457287464757812, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5661965810343421661, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5661965810343421661, guid: f69a8842ecb983543b5aa85e306be53f,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8140457287464757812, guid: f69a8842ecb983543b5aa85e306be53f, type: 3}
-    - {fileID: 5661965810343421661, guid: f69a8842ecb983543b5aa85e306be53f, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: f69a8842ecb983543b5aa85e306be53f, type: 3}
