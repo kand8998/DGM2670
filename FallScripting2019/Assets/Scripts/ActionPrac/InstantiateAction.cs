@@ -1,26 +1,18 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Instantiate : MonoBehaviour
+public class InstantiateAction : MonoBehaviour
 {
     public Rigidbody projectile;
     public Transform launchTransform;
-    private GameAction instanceAction;
+    public GameAction instanceAction;
 
     private void Start()
     {
-        instanceAction.action += Instancing;
+        instanceAction.action += Instance;
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-           instanceAction.Raise();
-        }
-    }
-
-    private void Instancing()
+    
+    private void Instance()
     {
         var projectileInstance = Instantiate(projectile, launchTransform.position,
             launchTransform.rotation);

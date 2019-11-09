@@ -2,8 +2,9 @@
 
 public class DestoryObj : MonoBehaviour
 {
+    public GameObject destroyableObj;
     private void Start()
     {
-        Destroy(gameObject, 3.5f);
+        Destroy(destroyableObj, 3.5f);
     }
 }
