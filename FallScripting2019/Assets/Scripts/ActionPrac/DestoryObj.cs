@@ -3,8 +3,9 @@
 public class DestoryObj : MonoBehaviour
 {
     public GameObject destroyableObj;
+    public float value;
     private void Start()
     {
-        Destroy(destroyableObj, 3.5f);
+        Destroy(destroyableObj, value);
     }
 }
