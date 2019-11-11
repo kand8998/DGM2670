@@ -4,7 +4,7 @@ public class CharacterPrime : CharacterBase
 {
     public override void Move()
     {
-        Location.Set(Input.GetAxis("Vertical")*speed,0,0);
+        Location.Set(Input.GetAxis("Vertical")*moveSpeed,0,0);
         Orientation.y = Input.GetAxis("Horizontal")*orientSpeed;
         
         Transform transform;
