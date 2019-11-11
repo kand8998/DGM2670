@@ -1,13 +1,11 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
-public class CharacterMoveJump : ACharacterBase, IMove
+
+public class CharacterMoveJump : ACharacterBase, IMoving
 {
-    public override void Move(CharacterController controller)
+    public override void Move()
     {
-        if (Input.GetButton("Jump"))
-        {
-            Location.y = jumpSpeed;
-        }
+       Jump();
+       base.Move();
     }
 }

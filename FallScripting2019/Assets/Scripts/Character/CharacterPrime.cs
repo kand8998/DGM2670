@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
-[CreateAssetMenu]
-public class CharacterPrime : CharacterBase
+
+public class CharacterPrime : ACharacterBase
 {
-    public override void Move()
+    public void Move()
     {
         Location.Set(Input.GetAxis("Vertical")*moveSpeed,0,0);
-        Orientation.y = Input.GetAxis("Horizontal")*orientSpeed;
+        Orientation.y = Input.GetAxis("Horizontal")*jumpSpeed;
         
         Transform transform;
         (transform = Controller.transform).Rotate(Orientation);

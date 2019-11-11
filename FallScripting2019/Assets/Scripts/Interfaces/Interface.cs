@@ -26,6 +26,11 @@ public interface IMove
     void Move(CharacterController controller);
 }
 
+public interface IMoving
+{
+    void Move();
+}
+
 public interface IDrag
 {
     Vector3 offsetPosition { get; set; }

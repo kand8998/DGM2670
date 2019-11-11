@@ -1,13 +1,22 @@
 using UnityEngine;
 [CreateAssetMenu]
-public abstract class CharacterBase : ScriptableObject
+public abstract class CharacterBase : ScriptableObject, IMove
 {
-    //public Transform characterTransform { get; set;}
+    public Transform characterTransform { get; set;}
     public CharacterController Controller { get; set;}
-    
-    protected Vector3 Location;
-    protected Vector3 Orientation;
+
+    public Vector3 location { get; set; }
+    protected Vector3 orientation;
     public float speed = 10f;
     public float orientSpeed = 3f;
-    public abstract void Move();
+    
+    public void Move(CharacterController controller)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void Move()
+    {
+        throw new System.NotImplementedException();
+    }
 }
