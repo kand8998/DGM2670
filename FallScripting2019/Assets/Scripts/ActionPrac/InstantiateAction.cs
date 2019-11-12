@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class InstantiateAction : MonoBehaviour
 {
     public Rigidbody projectile;
@@ -16,6 +15,6 @@ public class InstantiateAction : MonoBehaviour
     {
         var projectileInstance = Instantiate(projectile, launchTransform.position,
             launchTransform.rotation);
-        projectileInstance.AddForce(launchTransform.up * 350f);
+        projectileInstance.AddForce(launchTransform.forward * 350f);
     }
 }
