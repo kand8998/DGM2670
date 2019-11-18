@@ -75,6 +75,7 @@
           <e p="MonoEventBehaviour.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="MusicController.cs" t="Include" />
+          <e p="Rotation.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
