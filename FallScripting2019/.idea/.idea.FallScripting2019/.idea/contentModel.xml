@@ -94,6 +94,12 @@
           </e>
           <e p="UpdateEventsBehaviour.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
+          <e p="Weapons" t="Include">
+            <e p="AmmoHandler.cs" t="Include" />
+            <e p="WeaponButtonHandler.cs" t="Include" />
+            <e p="WeaponConfig.cs" t="Include" />
+            <e p="WeaponHandler.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="FallScripting2019.sln" t="IncludeFlat" />

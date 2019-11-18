@@ -7,5 +7,5 @@ public class Rotation : MonoBehaviour
     {
         transform.Rotate(0,0,spin*Time.deltaTime);
     }
-    }
 }
+
