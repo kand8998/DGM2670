@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff7799e1103155b4da7be3ae5a335b7a, type: 3}
   m_Name: Red Pew
   m_EditorClassIdentifier: 
+  damageAction: {fileID: 11400000, guid: bdc9330813dd63c42848a0fc283ea882, type: 2}
   weaponColor: {r: 1, g: 0, b: 0, a: 1}
+  weaponArt: {fileID: 0}
   ammoObj: {fileID: 8301447847337827043, guid: cb863d012535a414e8f0f8b8c222386d, type: 3}
   colorArray: []
+  firePower: -0.1
+  playerHealth: {fileID: 11400000, guid: ec406fc8f1ee93f45b95ebb6bf7bc1fb, type: 2}

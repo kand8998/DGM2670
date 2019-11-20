@@ -6,7 +6,9 @@ using UnityEngine.Serialization;
 public class WeaponConfig : ScriptableObject
 {
     public UnityAction weaponFireAction, collectWeaponAction;
+    public GameAction damageAction;
     public Color weaponColor = Color.red;
+    public GameObject weaponArt;
     public GameObject ammoObj;
     public Color[] colorArray;
     public float firePower = 0.1f;
@@ -30,5 +32,6 @@ public class WeaponConfig : ScriptableObject
     public void DoDamage()
     {
         playerHealth.UpdateValue(firePower);
+        damageAction.Raise();
     }
 }

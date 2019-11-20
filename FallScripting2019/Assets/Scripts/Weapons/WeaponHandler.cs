@@ -4,19 +4,18 @@ using UnityEngine;
 public class WeaponHandler : MonoBehaviour
 {
     public WeaponConfig weaponObj;
-    
     void Start()
     {
+        var child = Instantiate(weaponObj.weaponArt, transform);
         weaponObj.weaponFireAction = Fire;
-        var renderer = GetComponent<Renderer>();
+        var renderer = child.GetComponent<Renderer>();
         renderer.material.color = weaponObj.weaponColor;
     }
 
     public void Fire()
     {
         var ammo = Instantiate(weaponObj.ammoObj);
-        var renderer = ammo.GetComponent<Renderer>();
-        renderer.material.color = weaponObj.RandomColor();
+        ammo.GetComponent<AmmoHandler>().weaponObj = weaponObj;
     }
 
     private void OnTriggerEnter(Collider other)

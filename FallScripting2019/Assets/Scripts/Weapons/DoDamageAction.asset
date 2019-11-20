@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edda5f1fe475a3445841fe82cc8f6d5b, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: a204530d7a2ca6945bebff0ebf877aae, type: 3}
+  m_Name: DoDamageAction
   m_EditorClassIdentifier: 
-  value: 1
-  maxValue: 1

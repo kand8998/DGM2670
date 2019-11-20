@@ -653,7 +653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d299111818938a043b30248c92e2db40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: 35
+  forwardSpin: 35
+  backSpin: -35
 --- !u!4 &492410073
 Transform:
   m_ObjectHideFlags: 0
