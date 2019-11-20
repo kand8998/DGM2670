@@ -7,7 +7,7 @@ public class Rotation : MonoBehaviour
     void Update()
     {
 
-        while (Input.GetKeyDown(KeyCode.LeftArrow))
+        while (Input.GetKeyDown(KeyCode.RightArrow))
         {
             Rotate();
         }
