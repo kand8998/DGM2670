@@ -2,21 +2,18 @@
 
 public class Rotation : MonoBehaviour
 {
-    public float spin = 35f;
+    public float forwardSpin = 35f;
+    public float backSpin = -35f;
 
     void Update()
     {
-
-        while (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            Rotate();
+            transform.Rotate(0,0,forwardSpin*Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.Rotate(0,0,backSpin*Time.deltaTime);
         }
     }
-    
-    public void Rotate()
-    {
-        transform.Rotate(0,0,spin*Time.deltaTime);
-
-    }
 }
-
