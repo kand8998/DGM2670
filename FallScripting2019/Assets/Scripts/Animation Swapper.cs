@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
+using Tutorial_Variants;
 
 public class ExampleClass : MonoBehaviour
 {
@@ -14,5 +16,13 @@ public class ExampleClass : MonoBehaviour
         }
 
         anim.Play();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            anim.clip.length();
+        }
     }
 }
