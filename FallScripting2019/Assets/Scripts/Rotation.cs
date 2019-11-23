@@ -1,19 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class Rotation : MonoBehaviour
 {
     public float forwardSpin = 35f;
     public float backSpin = -35f;
+    public GameAction forwardAction, backAction;
 
-    void Update()
+    private void Start()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Rotate(0,0,forwardSpin*Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.Rotate(0,0,backSpin*Time.deltaTime);
-        }
+        forwardAction.action = ForwardRotation;
+        backAction.action = BackRotation;
+    }
+
+    public void ForwardRotation()
+    {
+        transform.Rotate(0,0,forwardSpin*Time.deltaTime);
+    }
+
+    public void BackRotation()
+    {
+        transform.Rotate(0,0,backSpin*Time.deltaTime);
     }
 }
