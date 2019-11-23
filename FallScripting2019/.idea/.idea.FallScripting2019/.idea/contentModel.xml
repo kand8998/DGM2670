@@ -19,12 +19,12 @@
             <e p="InstantiateAction.cs" t="Include" />
             <e p="Marti.cs" t="Include" />
             <e p="Rodayne.cs" t="Include" />
-            <e p="TransformObj.cs" t="Include" />
           </e>
           <e p="AiBase.cs" t="Include" />
           <e p="AiFollow.cs" t="Include" />
           <e p="AiHunt.cs" t="Include" />
           <e p="AIWithNavMesh.cs" t="Include" />
+          <e p="AnimationState.cs" t="Include" />
           <e p="AnimController.cs" t="Include" />
           <e p="ArrowEvents.cs" t="Include" />
           <e p="Character" t="Include">
@@ -79,7 +79,7 @@
           <e p="MonoEventBehaviour.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="MusicController.cs" t="Include" />
-          <e p="Rotation.cs" t="Include" />
+          <e p="RotationAction.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
