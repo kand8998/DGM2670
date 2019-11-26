@@ -24,6 +24,7 @@
           <e p="AiFollow.cs" t="Include" />
           <e p="AiHunt.cs" t="Include" />
           <e p="AIWithNavMesh.cs" t="Include" />
+          <e p="AnimBoolAction.cs" t="Include" />
           <e p="AnimController.cs" t="Include" />
           <e p="ArrowEvents.cs" t="Include" />
           <e p="Character" t="Include">
