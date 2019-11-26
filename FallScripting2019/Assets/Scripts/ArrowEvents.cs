@@ -1,20 +1,29 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class ArrowEvents : MonoBehaviour
 {
-    public UnityEvent leftArrowEvent, rightArrowEvent;
-    
+    public UnityEvent rightArrowDownEvent, leftArrowDownEvent, rightArrowUpEvent, leftArrowUpEvent;
+
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            leftArrowEvent.Invoke();
+            rightArrowDownEvent.Invoke();
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            rightArrowEvent.Invoke();
+            leftArrowDownEvent.Invoke();
+        }
+
+
+        if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            rightArrowUpEvent.Invoke();
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            leftArrowUpEvent.Invoke();
         }
     }
 }
