@@ -621,10 +621,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 102900000, guid: ac5a74d31eb889f498a0feeb0d6bfa26,
         type: 3}
+    - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: aa7ffda8fa2dadc4d86c42e50789770d,
+        type: 2}
+    - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466536283895802934, guid: bcf0416ff88162b41bf1517952cfdca4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcf0416ff88162b41bf1517952cfdca4, type: 3}
 --- !u!224 &509741599 stripped
