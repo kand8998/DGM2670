@@ -6,11 +6,11 @@ public class ArrowEvents : MonoBehaviour
     public UnityEvent leftArrowEvent, rightArrowEvent;
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        while (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             leftArrowEvent.Invoke();
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        while (Input.GetKeyDown(KeyCode.RightArrow))
         {
             rightArrowEvent.Invoke();
         }
