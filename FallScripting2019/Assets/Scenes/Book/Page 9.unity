@@ -191,6 +191,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &89292395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3516494303813954407, guid: 493a6d33150da854c822939cd1485e4e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1952307820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &89292396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89292395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88d295c6feba6f468d7dda0384eda2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mover: {fileID: 11400000, guid: b666d475760acdb48aea70093f56ca50, type: 2}
+  i: 0
+  movers:
+  - {fileID: 11400000, guid: b666d475760acdb48aea70093f56ca50, type: 2}
+--- !u!143 &89292397
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89292395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &109842914
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +692,94 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &549111067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549111068}
+  - component: {fileID: 549111069}
+  m_Layer: 0
+  m_Name: LBump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &549111068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549111067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.53, y: -1.25, z: 0}
+  m_LocalScale: {x: 1.625, y: 15.236137, z: 1}
+  m_Children: []
+  m_Father: {fileID: 848278080}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &549111069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549111067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &582482163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582482164}
+  - component: {fileID: 582482165}
+  m_Layer: 0
+  m_Name: RBump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &582482164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582482163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.7, y: -1.25, z: 0}
+  m_LocalScale: {x: 1.625, y: 15.236137, z: 1}
+  m_Children: []
+  m_Father: {fileID: 848278080}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &582482165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582482163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &613473888
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,27 +903,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &758879881 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3516494303813954407, guid: 493a6d33150da854c822939cd1485e4e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1952307820}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &758879882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758879881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b88d295c6feba6f468d7dda0384eda2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mover: {fileID: 11400000, guid: da0be956228022f40a912d0e0c181401, type: 2}
-  i: 0
-  movers: []
 --- !u!1 &817427350
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848278080}
   - component: {fileID: 848278081}
+  - component: {fileID: 848278082}
   m_Layer: 0
   m_Name: Ice Trigger
   m_TagString: Untagged
@@ -895,9 +1003,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848278079}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 6, z: -5.982721}
+  m_LocalPosition: {x: -0.8, y: 9, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 549111068}
+  - {fileID: 582482164}
   m_Father: {fileID: 1224430698}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -914,6 +1024,61 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.13, y: 5.35, z: 11.62}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &848278082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848278079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99bbac4e332e4b47a8606b1aa58c712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 08fcc465d9da83b458710fe635419c75, type: 2}
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 549111067}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 582482163}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &941815443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,20 +2077,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516494303813954406, guid: 493a6d33150da854c822939cd1485e4e,
+    - target: {fileID: 1010802087687544803, guid: 493a6d33150da854c822939cd1485e4e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.42358595
-      objectReference: {fileID: 0}
-    - target: {fileID: 3516494303813954406, guid: 493a6d33150da854c822939cd1485e4e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.42358595
-      objectReference: {fileID: 0}
-    - target: {fileID: 3516494303813954406, guid: 493a6d33150da854c822939cd1485e4e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.42358595
+      propertyPath: m_Name
+      value: Snowy Trigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 493a6d33150da854c822939cd1485e4e, type: 3}
