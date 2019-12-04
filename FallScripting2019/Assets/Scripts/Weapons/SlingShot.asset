@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7799e1103155b4da7be3ae5a335b7a, type: 3}
+  m_Name: SlingShot
+  m_EditorClassIdentifier: 
+  damageAction: {fileID: 11400000, guid: bdc9330813dd63c42848a0fc283ea882, type: 2}
+  weaponColor: {r: 1, g: 1, b: 1, a: 1}
+  weaponArt: {fileID: 7802831403337466153, guid: 14472cab7ec50ad4f8da58e0779dfd30,
+    type: 3}
+  ammoObj: {fileID: 8301447847337827043, guid: cb863d012535a414e8f0f8b8c222386d, type: 3}
+  colorArray: []
+  firePower: 0.1
+  playerHealth: {fileID: 11400000, guid: 8a0c95d04c2f8ea4faeaab7b7bf65515, type: 2}
