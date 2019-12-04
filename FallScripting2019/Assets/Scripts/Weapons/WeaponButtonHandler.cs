@@ -19,7 +19,7 @@ public class WeaponButtonHandler : MonoBehaviour
         buttonText = GetComponentInChildren<Text>();
         buttonText.text = weaponObj.name + " Fire";
         weaponObj.collectWeaponAction = OnCollectWeapon;
-        weaponButton.interactable = false;
+        weaponButton.interactable = true;
     }
 
     public void OnCollectWeapon()
