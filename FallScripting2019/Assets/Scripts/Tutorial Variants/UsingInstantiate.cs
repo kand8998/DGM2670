@@ -4,8 +4,6 @@ using UnityEngine.Events;
 
 public class UsingInstantiate : MonoBehaviour
 {
-    // Unity Tutorial Variant
-
     public Rigidbody projectile;
     public Transform barrelEnd;
     private UnityAction instatiateAction;
