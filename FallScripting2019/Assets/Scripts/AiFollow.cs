@@ -8,7 +8,7 @@ public class AiFollow : MonoBehaviour
     public Transform player, destination;
     private void Start()
     {
-        destination = transform;
+        destination = player;
         agent = GetComponent<NavMeshAgent>();
     }
     

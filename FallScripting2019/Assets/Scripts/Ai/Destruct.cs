@@ -1,11 +1,17 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class Destruct : MonoBehaviour
 {
     public float destructTime = 3f;
-    private void OnTriggerEnter(Collider other)
+    public GameAction destroyAction;
+
+    private void Start()
+    {
+        destroyAction.action += DestroyObject;
+    }
+
+    private void DestroyObject()
     {
         Destroy(gameObject, destructTime + 0.1f);
     }
