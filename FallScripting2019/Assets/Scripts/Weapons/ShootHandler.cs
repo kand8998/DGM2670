@@ -11,7 +11,7 @@ public class ShootHandler : MonoBehaviour
         shootObj.weaponShootAction = Fire;
     }
 
-    private void Fire()
+    public void Fire()
     {
         var ammo = Instantiate(shootObj.ammoObj);
         ammo.GetComponent<ProjectileHandler>().shootObj = shootObj;
