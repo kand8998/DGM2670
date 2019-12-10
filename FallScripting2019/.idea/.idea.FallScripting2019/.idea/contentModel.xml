@@ -142,6 +142,10 @@
           <e p="Weapons" t="Include">
             <e p="AmmoHandler.cs" t="Include" />
             <e p="InputAmmoInstance.cs" t="Include" />
+            <e p="ProjectileHandler.cs" t="Include" />
+            <e p="ShootButtonHandler.cs" t="Include" />
+            <e p="ShootConfig.cs" t="Include" />
+            <e p="ShootHandler.cs" t="Include" />
             <e p="WeaponButtonHandler.cs" t="Include" />
             <e p="WeaponConfig.cs" t="Include" />
             <e p="WeaponHandler.cs" t="Include" />
