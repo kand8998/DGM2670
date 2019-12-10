@@ -1137,6 +1137,21 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5484147438038655658, guid: bd596fd56d19c5f468e987ec6a910891,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 7.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484147438038655658, guid: bd596fd56d19c5f468e987ec6a910891,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -3.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484147438038655658, guid: bd596fd56d19c5f468e987ec6a910891,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 23.16
+      objectReference: {fileID: 0}
     - target: {fileID: 4440287560824343603, guid: bd596fd56d19c5f468e987ec6a910891,
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
