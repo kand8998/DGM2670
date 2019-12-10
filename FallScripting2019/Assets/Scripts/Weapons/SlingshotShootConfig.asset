@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b2bc3bc7b181fc4a84673349c11ce73, type: 3}
+  m_Name: SlingshotShootConfig
+  m_EditorClassIdentifier: 
+  weaponArt: {fileID: 4843257645010692817, guid: 5bfa630c41ea609448d565ba7f72f855,
+    type: 3}
+  ammoObj: {fileID: 4619464895501372137, guid: 6e849589d8e100d4987280cddee80c01, type: 3}
+  firePower: 0.1

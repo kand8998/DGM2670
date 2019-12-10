@@ -5,15 +5,13 @@ using UnityEngine.Serialization;
 public class ShootHandler : MonoBehaviour
 {
     public ShootConfig shootObj;
-    void Start()
+    private void Start()
     {
         var child = Instantiate(shootObj.weaponArt, transform);
-        shootObj.weaponFireAction = Fire;
-        var renderer = child.GetComponent<Renderer>();
-        renderer.material.color = shootObj.weaponColor;
+        shootObj.weaponShootAction = Fire;
     }
 
-    public void Fire()
+    private void Fire()
     {
         var ammo = Instantiate(shootObj.ammoObj);
         ammo.GetComponent<ProjectileHandler>().shootObj = shootObj;
@@ -21,6 +19,6 @@ public class ShootHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        shootObj.RaiseCollectAction();
+        shootObj.weaponShootAction();
     }
 }
