@@ -1,10 +1,9 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
 
 public class ShootHandler : MonoBehaviour
 {
     public ShootConfig shootObj;
+    public Transform launchTransform;
     private void Start()
     {
         var child = Instantiate(shootObj.weaponArt, transform);
@@ -13,7 +12,7 @@ public class ShootHandler : MonoBehaviour
 
     public void Fire()
     {
-        var ammo = Instantiate(shootObj.ammoObj);
+        var ammo = Instantiate(shootObj.ammoObj, launchTransform);
         ammo.GetComponent<ProjectileHandler>().shootObj = shootObj;
     }
 

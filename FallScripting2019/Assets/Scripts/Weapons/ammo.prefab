@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0077348adf270a47b0839c3f295c585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forces: {x: 500, y: 0, z: 0}
+  forces: {x: 0, y: 3, z: 1000}
   weaponObj: {fileID: 11400000, guid: 95236c5c11ff6f5489c800d02ccfa37e, type: 2}
 --- !u!54 &4573396172795276020
 Rigidbody:
@@ -261,4 +261,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df56c08ff379bf644bfbccc72f33d110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destructTime: 3
+  destructTime: 4

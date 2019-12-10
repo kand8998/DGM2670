@@ -105,3 +105,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootObj: {fileID: 11400000, guid: d14dcbacee9180e4684ecec4d756a6f9, type: 2}
+  launchTransform: {fileID: 0}

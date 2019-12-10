@@ -6,11 +6,12 @@ public class ProjectileHandler : MonoBehaviour
     private Rigidbody rigidbodyObj;
     public Vector3 forces;
     public ShootConfig shootObj;
-    
-    void Start()
+
+
+    private void Start()
     {
         rigidbodyObj = GetComponent<Rigidbody>();
         rigidbodyObj.AddForce(forces);
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 1.5f);
     }
 }

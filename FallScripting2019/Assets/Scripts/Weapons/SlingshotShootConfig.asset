@@ -15,4 +15,4 @@ MonoBehaviour:
   weaponArt: {fileID: 8902043536646989379, guid: edc56e07e64e72e45b6f7d01b17e09ed,
     type: 3}
   ammoObj: {fileID: 4619464895501372137, guid: 6e849589d8e100d4987280cddee80c01, type: 3}
-  firePower: 0.1
+  firePower: 0

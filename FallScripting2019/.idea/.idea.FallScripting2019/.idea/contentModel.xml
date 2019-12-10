@@ -58,6 +58,8 @@
           </e>
           <e p="Ai" t="Include">
             <e p="AiClass.cs" t="Include" />
+            <e p="AiInstance.cs" t="Include" />
+            <e p="AiInstanceConfig.cs" t="Include" />
             <e p="Destruct.cs" t="Include" />
           </e>
           <e p="AiBase.cs" t="Include" />
